@@ -1,13 +1,19 @@
-<div class="main-container mt-4 w-full flex justify-between">
-  <div class="logo w-1/2 ml-10aboout ml-10">
+<div class="main-container mt-4 w-full md:flex md:justify-between">
+  <div class="logo w-1/2 ml-10aboout ml-4 md:ml-10">
     <img src="assets/logo-navbar.png" alt="Logo" width="38" height="38"/>
+
+    <!-- <span class="text-3xl cursor-pointer ml-1 mt-2 md:hidden block">
+      <img src="assets/menu.png" alt="" width="28px" height="28px" (click)="showNavitems()">
+    </span> -->
+
   </div>
 
-  <div class="nav-contents-main  w-1/2">
-    <div class="nav-contents-child mt-3 flex justify-around text-light-grey">
-      <p class="text-light-grey">About Product</p>
-      <p>About Us</p>
-      <p>Contact Us</p>
+  <div class="nav-contents-main   w-1/2 ">
+    <div class="nav-contents-child mt-3 md:flex md:justify-around text-light-grey ml-4">
+      <p class="text-light-grey cursor-pointer" href="#about">About Product</p>
+      <p class="text-light-grey cursor-pointer" href="#us">What's in the box?</p>
+      <p class="text-light-grey cursor-pointer" href="#address">About Us</p>
+      <!-- <p>Contact Us</p> -->
     </div>
   </div>
 </div>

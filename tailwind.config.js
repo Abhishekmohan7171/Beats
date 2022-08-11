@@ -21,7 +21,21 @@ module.exports = {
         'superlarge':'300px',
       },
       width:{
-        'shape-big':'1397px'
+        'shape-big':'1397px',
+        'image-xl':'605px',
+        'image-m':'405px',
+        'image':'305px',
+        'imagetwo-xl':'490px',
+        'imagetwo-m':'390px',
+        'imagetwo':'290px',
+      },
+      height:{
+        'image-xl':'886px',
+        'image-m':'686px',
+        'image':'586px',
+        'imagetwo-xl':'490px',
+        'imagetwo-m':'390px',
+        'imagetwo':'290px',
       },
       margin:{
         'big-shape':'-410px'
