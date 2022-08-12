@@ -11,9 +11,11 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  showItems = false;
 
   showNavitems(){
-    
+    this.showItems = !this.showItems;
   }
 
 }
